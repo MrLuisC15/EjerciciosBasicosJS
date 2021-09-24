@@ -3,8 +3,8 @@
 let frase = prompt('Canta por esa boquita...')
 
 // document.write(frase+"<br />")
-
+frase=frase.toLowerCase();
 for(let i=0;i<frase.length;i++) {
-    if(frase.charAt(i).toLowerCase=='a' || frase.charAt(i).toLowerCase=='e' || frase.charAt(i).toLowerCase=='i' || frase.charAt(i).toLowerCase=='o' || frase.charAt(i).toLowerCase=='u')
+    if(frase.charAt(i)=='a' || frase.charAt(i)=='e' || frase.charAt(i)=='i' || frase.charAt(i)=='o' || frase.charAt(i)=='u')
         document.write(frase.charAt(i))
 }
